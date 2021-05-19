@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5339883975528797417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2575297995770468759}
+  - component: {fileID: 6871751931634998629}
+  m_Layer: 0
+  m_Name: MapCreation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2575297995770468759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339883975528797417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.125537, y: 2.6841912, z: -11.571188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6871751931634998629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339883975528797417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648dfaa385d6f714eb08985a325b1a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item:
+  - {fileID: 2322597410814650090, guid: bde58f3d04a1b134da7c19d6b75b48a8, type: 3}
+  - {fileID: 2795338690963985173, guid: 433e4defab42b374fb05156593e1af4f, type: 3}
+  - {fileID: 6390894731611003453, guid: 64b9519cecf2cb94aaaecd42c27dce86, type: 3}
+  - {fileID: 5779981534604366772, guid: 80588a796a8994248bc64e9ca395748a, type: 3}
+  - {fileID: 3341172275522692776, guid: 1863b2e38e88fe740a9c79ec4ca221fe, type: 3}
+  - {fileID: 3114888356635377260, guid: 962d2c3ff076a36488df8e1c30266d58, type: 3}
+  - {fileID: 28166706941216657, guid: 19eff1fb0c84b314cbf4068746dd5cdd, type: 3}
+  - {fileID: 4892011839889019134, guid: da7d7cfd5feeb2341ba16190b40d98d1, type: 3}
+  itemPositionList: []

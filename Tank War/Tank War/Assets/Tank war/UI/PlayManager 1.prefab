@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2634459502781236578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9014958933738973909}
+  - component: {fileID: 5126573319386745211}
+  m_Layer: 0
+  m_Name: PlayManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9014958933738973909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2634459502781236578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.34521, y: -20.821884, z: -4.149018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5126573319386745211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2634459502781236578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e26fad65bb8eed4997ab98bd0a10f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeValue1: 3
+  playerScore1: 0
+  isDead1: 0
+  isDefeat1: 0
+  lifeValue2: 3
+  playerScore2: 0
+  isDead2: 0
+  isDefeat2: 0
+  Born1: {fileID: 5779981534604366772, guid: 80588a796a8994248bc64e9ca395748a, type: 3}
+  player1ScoreText: {fileID: 0}
+  player1LifeValueText: {fileID: 0}
+  Born2: {fileID: 4892011839889019134, guid: da7d7cfd5feeb2341ba16190b40d98d1, type: 3}
+  player2ScoreText: {fileID: 0}
+  player2LifeValueText: {fileID: 0}
+  isDefeatUI: {fileID: 0}
